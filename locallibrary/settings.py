@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DJANGO_DEBUG", "") != "False"
 
-ALLOWED_HOSTS = ["web-production-3640.up.railway.app", "127.0.0.1"]
+ALLOWED_HOSTS = ["web-production-e0d9.up.railway.app", "127.0.0.1"]
 
 
 # Application definition
@@ -140,4 +140,4 @@ STATIC_URL = "/static/"
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-CSRF_TRUSTED_ORIGINS = ["https://web-production-3640.up.railway.app"]
+CSRF_TRUSTED_ORIGINS = ["https://web-production-e0d9.up.railway.app"]
